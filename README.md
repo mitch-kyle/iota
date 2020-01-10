@@ -7,8 +7,9 @@ To install simply download `init.el` into your `~/.emacs.d` directory.
 
 ```
 mkdir ~/.emacs.d
-wget -O ~/.emacs.d/init.el https://github.com/mitch-kyle/iota/blob/master/init.el
+wget -O ~/.emacs.d/init.el https://raw.githubusercontent.com/mitch-kyle/iota/master/init.el
 ```
+
 ## Usage / Some Emacs Basics
 ### Understanding Keybindings
 In Emacs keys are bound to chords which are different key combination after one another.
