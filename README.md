@@ -23,20 +23,21 @@ This configuration will set some default keybindings, feel free to change them t
 
 | Key Chord | Function | Description |
 |---|---|---|
+| `C-g` | `keyboard-quit` | Cancel the current interactive command |
 | `M-x` | `smex` | Interactively call a function by name|
 | `C-x C-f` | `ido-find-file` | Open a file for editing |
 | `C-x C-s` | `save-buffer` | Save the current file |
-| `C-s`| `isearch-forward` | Search for text in a buffer |
+| `C-s` | `isearch-forward` | Search for text in a buffer |
 | `C-x b` | `ido-switch-buffer` | Change to another buffer |
 | `C-x C-b` | `ibuffer` | List buffers |
 | `C-x 2` | `split-window-below` | Split the window horizontally |
 | `C-x 3` | `split-window-right` | Split the window vertically |
-| `C-x 1` | `delete-other-windows`| Remove all window splits except one currently focused |
+| `C-x 1` | `delete-other-windows` | Remove all window splits except one currently focused |
 | `C-x 0` | `delete-window` | Remove the current window split |
-| `M-<left>`| `windmove-left` | Move to the window to the left |
-| `M-<right>`| `windmove-right` | Move to the window to the right |
-| `M-<down>`| `windmove-down` | Move to the window below |
-| `M-<up>`| `windmove-up` | Move to the window above |
+| `M-<left>` | `windmove-left` | Move to the window to the left |
+| `M-<right>` | `windmove-right` | Move to the window to the right |
+| `M-<down>` | `windmove-down` | Move to the window below |
+| `M-<up>` | `windmove-up` | Move to the window above |
 | `C-x o` | `other-window` | Cycle to the next window |
 
 #### Clojure/Cider
